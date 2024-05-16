@@ -57,3 +57,7 @@ print(len(cars))
 #rzon_narx = min(narxlar)
 #ng_qimmat_narx = max(narxlar)
 #rint("Eng qimmat narx:", eng_qimmat_narx, "Eng arzon narx:", arzon_narx)
+
+
+name = 'James'
+print(name)
