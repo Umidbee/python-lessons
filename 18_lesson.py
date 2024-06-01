@@ -17,7 +17,7 @@
 #     print(son, end="")
 #     son = son + 1
 
-# print("Dastur tugadi")
+print("Dastur tugadi")
 
 # savol = "Istalgan son kiriting "
 # savol += "(dasturni to'xtatish uchun 'exit' yozing): "
@@ -75,10 +75,45 @@
 #     print(f"{son} ning kvadrati {son ** 2} ga teng")
 
 # Continue while
-son = 0
-while son < 10:
-    son += 1
-    if son % 2 == 0:
-        continue
+# son = 0
+# while son < 10:
+#     son += 1
+#     if son % 2 == 0:
+#         continue
+#     else:
+#         print(son)
+
+
+# Amaliyot
+
+# savol = "Yaxshi ko'rgan kitoblariz kiriting!"
+# while True:
+#     kitob = input(savol)
+#     if kitob == "stop":
+#         break
+
+# print("Raxmat")
+
+
+#  2
+
+savol = "Yoshingiz kiriting!!"
+
+while True:
+    qiymat = input(savol)
+    if qiymat == "exit" or "quit":
+        break
+    yosh = int(qiymat)
+
+    if yosh < 7:
+        narx = 2000
+    elif 7 <= yosh < 18:
+        narx = 3000
+    elif 18 <= 65:
+        narx = 10000
     else:
-        print(son)
+        narx = 0
+    if narx == 0:
+        print("Sizga chipta bepul")
+    else:
+        print(f"Chipta {narx} som")
